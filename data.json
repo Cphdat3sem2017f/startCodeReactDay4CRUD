@@ -1,0 +1,95 @@
+{
+  "api": [
+    {
+      "id": "59dde0def94062f06bcc1211",
+      "age": 27,
+      "name": "Gale Sullivan",
+      "gender": "female",
+      "email": "galesullivan@zedalis.com"
+    },
+    {
+      "id": "59dde0deb5516ea4f23590f9",
+      "age": 31,
+      "name": "Karyn Fulton",
+      "gender": "female",
+      "email": "karynfulton@zedalis.com"
+    },
+    {
+      "id": "59dde0de06024380d2fe4f86",
+      "age": 24,
+      "name": "Billie Lamb",
+      "gender": "female",
+      "email": "billielamb@zedalis.com"
+    },
+    {
+      "id": "59dde0de47b61d96286c4f18",
+      "age": 31,
+      "name": "Marguerite Hunter",
+      "gender": "female",
+      "email": "margueritehunter@zedalis.com"
+    },
+    {
+      "id": "59dde0ded9f4ebc1b3be0c00",
+      "age": 21,
+      "name": "Gloria Graves",
+      "gender": "female",
+      "email": "gloriagraves@zedalis.com"
+    },
+    {
+      "id": "59dde0debbfbafceba121e43",
+      "age": 32,
+      "name": "Hale Mcdonald",
+      "gender": "male",
+      "email": "halemcdonald@zedalis.com"
+    },
+    {
+      "id": "59dde0de5c8490985e4e0456",
+      "age": 39,
+      "name": "Harriet Patel",
+      "gender": "female",
+      "email": "harrietpatel@zedalis.com"
+    },
+    {
+      "id": "59dde0deb92596ed1378e682",
+      "age": 32,
+      "name": "Phillips Hancock",
+      "gender": "male",
+      "email": "phillipshancock@zedalis.com"
+    },
+    {
+      "id": "59dde0de2972b05f630bf2ae",
+      "age": 39,
+      "name": "Dale Collier",
+      "gender": "female",
+      "email": "dalecollier@zedalis.com"
+    },
+    {
+      "id": "59dde0de4ee0ad65684a34eb",
+      "age": 34,
+      "name": "John White",
+      "gender": "male",
+      "email": "birdwhite@zedalis.com"
+    },
+    {
+      "id": "59dde0deaec3e253d107f4cf",
+      "age": 33,
+      "name": "Chen Reynolds",
+      "gender": "male",
+      "email": "chenreynolds@zedalis.com"
+    },
+    {
+      "id": "59dde0dede98ede717bf5268",
+      "age": 29,
+      "name": "Bernice Ball",
+      "gender": "female",
+      "email": "berniceball@zedalis.com"
+    },
+    {
+      "id": "59dde0de8883f35b6e8c446e",
+      "age": 21,
+      "name": "Autumn Foley",
+      "gender": "female",
+      "email": "autumnfoley@zedalis.com"
+    }
+  ]
+}
