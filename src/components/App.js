@@ -7,6 +7,11 @@ class App extends Component {
 
   constructor(props) {
     super(props);
+    this.state= {persons: []}
+  }
+
+  componentDidMount() {
+    //This would be the perfect place to fetch persons from the API
   }
 
   render() {
@@ -16,11 +21,11 @@ class App extends Component {
         <div className="row">
           <div className="col-md-6">
             <h3>All Persons</h3>
-            <AllPersons facade={this.props.facade} />
+            <AllPersons persons={this.state.persons} />
           </div>
           <div className="col-md-6" >
             <h3 style={{textAlign:"center"}}>Add Persons</h3>
-            <AddEditPerson facade={this.props.facade} />
+            <AddEditPerson />
           </div>
         </div>
 

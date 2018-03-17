@@ -1,28 +1,18 @@
-import React, {Component}  from "react"
+import React from "react"
 
-export default class AllPersons extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { persons: [] }
-  }
-
-  personUpdater = (data) => {
-    this.setState({ persons: data });
-  }
-
-  componentDidMount() {
-    //Make sure you understand this part
-    const facade = this.props.facade;
-    facade.setPersonsObserver(this.personUpdater);
-  }
-  render() {
-    return (
-      <div>
-        <table className="table">
-        </table>
-        <p>Please make me show all persons here in a table</p>
-        <p>And update me when new are added </p>
-      </div>
-    )
-  }
+export default function AllPersons(props) {
+  const { persons } = props;
+  return (
+    <div>
+      <table className="table">
+        <thead>
+          <tr><th>Age</th><th>Name</th><th>Gender</th><th>Email</th></tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+      <p>Please make me show all persons here in the table</p>
+      <p>And update me when new are added </p>
+    </div>
+  )
 }

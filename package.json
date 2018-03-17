@@ -15,6 +15,6 @@
     "dataserver": "json-server --watch data.json --port 3456"
   },
   "devDependencies": {
-    "json-server": "^0.12.0"
+    "json-server": "^0.12.1"
   }
 }
