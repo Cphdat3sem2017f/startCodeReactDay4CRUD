@@ -1,14 +1,12 @@
 const URL = "http://localhost:3456/api";
 
-
-// Simple way to handle HTTP-errors which otherwise does not throw an exception with the fetch-API
-function handleHttpErrors(res) {
-  if (!res.ok) {
-    throw Error(res.statusText);
+function handleHttpErrors(res){
+  if(!res.ok){
+    return Promise.reject({status: res.status, fullError: res.json() })
   }
   return res.json();
 }
-
+ 
 class DataFacade {
   
   /*
